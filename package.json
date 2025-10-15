@@ -1,0 +1,21 @@
+{
+  "name": "@tezra/test-repo",
+  "version": "1.0.0",
+  "type": "module",
+  "description": "Test Repo",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Tezra/test-musical-goggles"
+  },
+  "scripts": {
+    "build": "tsc -b",
+    "build:ex": "tsc -b && rm dist/utils.*",
+    "build:extest": "npm run build:ex && npm run build:ex && npm run build:ex"
+  },
+  "devDependencies": {
+    "typescript": "^5.9.3"
+  }
+}

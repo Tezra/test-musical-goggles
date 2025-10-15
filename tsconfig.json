@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "strict": false,
+    "target": "esnext",
+    "module": "esnext",
+    "moduleResolution": "node",
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "ESNext",
+      "DOM"
+    ],
+    "outDir": "dist",
+    "pretty": false,
+    "skipLibCheck": true,
+    "esModuleInterop": true,
+    "declaration": true,
+    // First change to this file will recompile. subsequent builds won't.
+    "composite": false,
+    "incremental": false,
+    //"tsBuildInfoFile": "node_modules/build.tsbuildinfo"
+  },
+  "typeAcquisition": {
+    "enable": true
+  },
+  "files": [
+    "src/index.ts"
+  ]
+}
